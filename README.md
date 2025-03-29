@@ -1,6 +1,18 @@
 # Priya Electronics & Cable Network Complaint Management System (PECN-CMS)
 
-Welcome to **PECN Complaint Management System (PECN-CMS)**, a Python-based application designed for managing customer complaints efficiently. The system allows users to register complaints, update remarks, view complaints with null remarks, and retrieve specific complaint details.
+Welcome to **PECN Complaint Management System (PECN-CMS)**, a user-friendly Python-based application designed to streamline the process of managing customer complaints for **Priya Electronics & Cable Network**. This system allows staff members to efficiently register complaints, update remarks, track unresolved issues, and retrieve detailed complaint information, all in one place.
+
+### About Priya Electronics & Cable Network (PECN)
+'Priya Electronics & Cable Network is a local business' that provides electronics, internet/broadband and cable services to customers. The Complaint Management System (PECN-CMS) was developed to ensure that customer concerns are handled promptly, efficiently, and with clear records of each interaction.
+
+### Technologies Used
+The PECN-CMS is built using:
+
+-Python 3 – The core programming language for application development.
+
+-PyWhatKit Library – Enables automation features, including sending WhatsApp messages for complaint notifications.
+
+-SQL – Manages the structured complaint database, ensuring efficient storage and retrieval of information.
 
 ## Features
 
