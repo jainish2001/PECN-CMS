@@ -122,14 +122,14 @@ After the build process, you will find the executable in the ```dist/``` directo
 
 Once the application is running, the following menu will be displayed:
 
-$ Welcome to Priya Electronics & Cable Network  
-$ Complaint Management System (PECN-CMS)  
-$ 1. Register a new complaint  
-$ 2. Update remarks for a complaint  
-$ 3. View complaints with NULL remarks updation time  
-$ 4. View details of a specific complaint  
-$ 5. Exit  
-$ Enter your choice: 
+      $ Welcome to Priya Electronics & Cable Network  
+      $ Complaint Management System (PECN-CMS)  
+      $ 1. Register a new complaint  
+      $ 2. Update remarks for a complaint  
+      $ 3. View complaints with NULL remarks updation time  
+      $ 4. View details of a specific complaint  
+      $ 5. Exit  
+      $ Enter your choice: 
 
       
 Option 1: Register a new complaint by entering customer information, mobile number, complaint type, etc.
