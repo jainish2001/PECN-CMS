@@ -56,15 +56,16 @@ CREATE TABLE complaints (
 );
 ```
 3. Configure Database Connection in Scripts
+
 In each Python script (RegisterComplain.py, ComplainUpdate.py, PendingComplain.py, SpecificComplain.py), update the database connection credentials to match your MySQL setup. Replace the following placeholders:
 
-host: Usually ```"localhost"```, unless you are using a remote database.
+host: Usually ```localhost```, unless you are using a remote database.
 
-user: Your MySQL ```username``` (default is ```"root"```).
+user: Your MySQL ```username``` (default is ```root```).
 
 password: Your MySQL password.
 
-database: "db_name" (write database name of your choice and do the changes in all files).
+database: ```db_name``` (write database name of your choice and do the changes in all files).
 
 For example, you will need to modify the connection part of the scripts like so:
 ```
@@ -75,28 +76,37 @@ conn = mysql.connector.connect(
     database="db_name"
 )
 ```
+
 Installation
+
 Clone the repository (or download the files) to your local machine:
 ```
 git clone https://github.com/jainish2001/PECN-CMS.git
 cd PECN-CMS
 ```
+
 Install the required dependencies:
 ```
 pip install -r requirements.txt
 ```
+
 Run the Complaint Management System: Navigate to the folder containing the scripts and run:
 ```
 python PECN-CMS.py
 ```
+
 Packaging into Executable (Optional)
+
 To create a standalone executable using PyInstaller, run the following command:
 ```
 pyinstaller --onefile PECN-CMS.py
 ```
-After the build process, you will find the executable in the dist/ directory.
+
+After the build process, you will find the executable in the ```dist/``` directory.
 
 Usage
+---
+
 Once the application is running, the following menu will be displayed:
 ```
 Welcome to Priya Electronics & Cable Network 
@@ -118,28 +128,11 @@ Option 4: View detailed information of a specific complaint by providing its com
 
 Option 5: Exit the application.
 
-Troubleshooting
-"ModuleNotFoundError": Ensure all required modules are installed and located in the same directory as the script, or within your Python environment.
-
-PyInstaller Errors: If PyInstaller fails to locate modules, try using the --add-data flag to include external files.
-
-Contributing
-If you would like to contribute to this project, please fork the repository and submit a pull request. Ensure your contributions are well-tested and documented.
-
-How to contribute:
-Fork the repository.
-
-Create a new feature branch.
-
-Make your changes and commit them.
-
-Open a pull request describing your changes.
+---
 
 License
-This project is licensed under the MIT License - see the LICENSE file for details.
 
-markdown
-Copy
+This project is licensed under the MIT License - see the `LICENSE` file for details.
 
 ---
 
@@ -153,7 +146,3 @@ This Markdown file is structured for clarity and readability. It includes:
 - **Troubleshooting tips**
 - **Contributing** guidelines
 - **License** information
-
-You can copy-paste this content into a `README.md` file for your project. Let me know if you need further changes!
-
-
