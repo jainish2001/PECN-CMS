@@ -85,28 +85,37 @@ database: ```db_name``` (write database name of your choice and do the changes i
 
 For example, you will need to modify the connection part of the scripts like so:
       ```
+      
       conn = mysql.connector.connect(
+          
           host="localhost",
+          
           user="root",
+          
           password="your_password",  # Replace with your MySQL password
+          
           database="db_name"
+          
       )
       ```
 
 ## Installation
 
 Clone the repository (or download the files) to your local machine:
+      
       ```
       git clone https://github.com/jainish2001/PECN-CMS.git
       cd PECN-CMS
       ```
 
 Install the required dependencies:
+      
       ```
       pip install -r requirements.txt
       ```
 
 Run the Complaint Management System: Navigate to the folder containing the scripts and run:
+
       ```
       python PECN-CMS.py
       ```
@@ -114,6 +123,7 @@ Run the Complaint Management System: Navigate to the folder containing the scrip
 Packaging into Executable (Optional)
 
 To create a standalone executable using PyInstaller, run the following command:
+
       ```
       pyinstaller --onefile PECN-CMS.py
       ```
@@ -123,16 +133,26 @@ After the build process, you will find the executable in the ```dist/``` directo
 ## Usage
 
 Once the application is running, the following menu will be displayed:
+
+      
       ```
       Welcome to Priya Electronics & Cable Network 
+      
       Complaint Management System (PECN-CMS)
+      
       1. Register a new complaint
+      
       2. Update remarks for a complaint
+      
       3. View complaints with NULL remarks updation time
+      
       4. View details of a specific complaint
+      
       5. Exit
+      
       Enter your choice:
       ```
+      
 Option 1: Register a new complaint by entering customer information, mobile number, complaint type, etc.
 
 Option 2: Update remarks for an existing complaint by entering its complaint ID and new remarks.
@@ -143,6 +163,6 @@ Option 4: View detailed information of a specific complaint by providing its com
 
 Option 5: Exit the application.
 
-## License
+### License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
