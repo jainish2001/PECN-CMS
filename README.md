@@ -8,11 +8,11 @@ Welcome to **PECN Complaint Management System (PECN-CMS)**, a user-friendly Pyth
 ### Technologies Used
 The PECN-CMS is built using:
 
--Python 3 – The core programming language for application development.
+- **Python 3** – The core programming language for application development.
 
--PyWhatKit Library – Enables automation features, including sending WhatsApp messages for complaint notifications.
+- **PyWhatKit Library** – Enables automation features, including sending WhatsApp messages for complaint notifications.
 
--SQL – Manages the structured complaint database, ensuring efficient storage and retrieval of information.
+- **SQL** – Manages the structured complaint database, ensuring efficient storage and retrieval of information.
 
 ## Features
 
