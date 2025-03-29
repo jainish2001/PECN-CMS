@@ -31,7 +31,7 @@ The PECN-CMS is built using:
 5. **Exit**  
    Close the application after completing your tasks.
 
-## Prerequisites
+### Prerequisites
 
 Before using the system, ensure the following are installed on your system:
 
@@ -40,7 +40,7 @@ Before using the system, ensure the following are installed on your system:
 - **Required Python Libraries**: Install the necessary libraries by running the following command:
   ```bash
   pip install mysql-connector-python pywhatkit
-Database Setup
+### Database Setup
 The system relies on a MySQL database to store complaint data. Follow these steps to set up the database:
 
 1. Create Database
@@ -84,18 +84,13 @@ database: ```db_name``` (write database name of your choice and do the changes i
 For example, you will need to modify the connection part of the scripts like so:
       
       conn = mysql.connector.connect(
-          
           host="localhost",
-          
           user="root",
-          
           password="your_password",  # Replace with your MySQL password
-          
           database="db_name"
-          
       )
 
-## Installation
+### Installation
 
 Clone the repository (or download the files) to your local machine:
       
@@ -118,18 +113,18 @@ To create a standalone executable using PyInstaller, run the following command:
 
 After the build process, you will find the executable in the ```dist/``` directory.
 
-## Usage
+### Usage
 
 Once the application is running, the following menu will be displayed:
 
-      $ Welcome to Priya Electronics & Cable Network  
-      $ Complaint Management System (PECN-CMS)  
-      $ 1. Register a new complaint  
-      $ 2. Update remarks for a complaint  
-      $ 3. View complaints with NULL remarks updation time  
-      $ 4. View details of a specific complaint  
-      $ 5. Exit  
-      $ Enter your choice: 
+       Welcome to Priya Electronics & Cable Network  
+       Complaint Management System (PECN-CMS)  
+       1. Register a new complaint  
+       2. Update remarks for a complaint  
+       3. View complaints with NULL remarks updation time  
+       4. View details of a specific complaint  
+       5. Exit  
+       Enter your choice: 
 
       
 Option 1: Register a new complaint by entering customer information, mobile number, complaint type, etc.
