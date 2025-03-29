@@ -2,7 +2,7 @@
 
 Welcome to **PECN Complaint Management System (PECN-CMS)**, a Python-based application designed for managing customer complaints efficiently. The system allows users to register complaints, update remarks, view complaints with null remarks, and retrieve specific complaint details.
 
-# Features
+## Features
 
 1. **Register a New Complaint**  
    Register new complaints with details like customer name, contact information, address, and complaint type.
@@ -19,7 +19,7 @@ Welcome to **PECN Complaint Management System (PECN-CMS)**, a Python-based appli
 5. **Exit**  
    Close the application after completing your tasks.
 
-# Prerequisites
+## Prerequisites
 
 Before using the system, ensure the following are installed on your system:
 
@@ -81,7 +81,7 @@ For example, you will need to modify the connection part of the scripts like so:
       )
       ```
 
-Installation
+## Installation
 
 Clone the repository (or download the files) to your local machine:
       ```
@@ -108,7 +108,7 @@ To create a standalone executable using PyInstaller, run the following command:
 
 After the build process, you will find the executable in the ```dist/``` directory.
 
-Usage
+## Usage
 ---
 
 Once the application is running, the following menu will be displayed:
@@ -134,6 +134,6 @@ Option 5: Exit the application.
 
 ---
 
-# License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
