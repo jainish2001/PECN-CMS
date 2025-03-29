@@ -109,7 +109,6 @@ To create a standalone executable using PyInstaller, run the following command:
 After the build process, you will find the executable in the ```dist/``` directory.
 
 ## Usage
----
 
 Once the application is running, the following menu will be displayed:
       ```
@@ -131,8 +130,6 @@ Option 3: View all complaints that do not yet have remarks or have missing updat
 Option 4: View detailed information of a specific complaint by providing its complaint ID.
 
 Option 5: Exit the application.
-
----
 
 ## License
 
